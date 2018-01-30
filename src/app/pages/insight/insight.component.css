@@ -1,0 +1,163 @@
+.ibox {
+    position: relative;
+}
+
+.ycolor {
+    color: #EB910C;
+}
+
+.ibox p {
+    line-height: 2;
+}
+
+.whichone {
+    background-color: rgb(255, 200, 20);
+    min-height: 120px;
+}
+
+.whichone p {
+    padding-top: 45px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.height200 {
+    min-height: 200px;
+}
+
+.which-box {
+    margin-top: 80px;
+}
+
+.wboxin {
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(48, 63, 77);
+    border-radius: 0px;
+    overflow: hidden;
+    filter: blur();
+    box-shadow: rgb(0, 0, 0) 0px 1px 4px 0px;
+    background-color: rgb(255, 198, 92);
+    padding: 40px;
+    width: 28%;
+}
+
+.wboxin p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wboxin p svg {
+    fill: #160896;
+}
+
+.top30px {
+    margin-top: 25px;
+}
+
+.left20px {
+    margin-left: 25px;
+}
+
+.wcomon {
+    min-height: 180px;
+    background-color: rgb(24, 33, 83);
+    margin-top: 60px;
+}
+
+.color2 {
+    color: #FFC814;
+    line-height: 2;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+.padt45px {
+    padding-top: 45px;
+}
+
+.hwks {
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.colorb {
+    color: #182153;
+}
+
+.hwks1 {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 1px;
+    margin: 0 auto;
+    padding-top: 50px;
+    /* background: #002E5D; */
+    background-color: rgba(241, 241, 241, 1)
+}
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #002E5D;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    /* background: #F45B69; */
+    background: #fff;
+}
+
+.timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ul li:nth-child(even) div {
+    left: 30px;
+    top: 25px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    /* border-color: transparent #F45B69 transparent transparent; */
+    border-color: transparent;
+}
+
+.timeline ul li:nth-child(odd) div {
+    left: -353px;
+    top: 25px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent;
+    /* border-color: transparent transparent transparent #F45B69; */
+}

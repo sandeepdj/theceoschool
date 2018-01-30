@@ -1,16 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
-body {
-    background-color: rgb(241, 241, 241);
-    font-family: 'Roboto Slab', serif;
-    font-weight: normal;
-    text-shadow: none;
-}
-
-.carousel-nav-list__item--current {
+.carousel-nav-list__item--current{
     display: none !important;
 }
-
 .carousel-nav-list__item--current {
     background-color: #fff !important;
+}
+body{
+      background-color: rgb(241, 241, 241);
 }

@@ -1,0 +1,53 @@
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+.top-menu{
+    box-shadow: 0px 6px 14px 2px rgba(0,0,0,0.11);
+}
+.top-menu-bar{
+    background-color: #fff;
+    border-color:#fff;
+    padding-top: 15px;
+ }
+.navbar-right{
+    padding-top: 15px
+}
+.bgshadow{
+  
+     height: 10px;
+    min-height: 10px;
+    background-image: url('../../../assets/shadowbg.png');
+    position: absolute;
+}
+.bgbox1{
+    background-position: 0 -29px;
+    width: 100px;
+    left: 0;
+}
+
+.bgbox2{
+    background-position: 0 0;
+    right: 100px;
+    left: 100px; 
+}
+
+.bgbox3{
+    background-position: 100% -29px;
+    width: 100px;
+    right: 0;
+}
+ 
+.top1{
+    margin-top: 1%;
+}
+.bgcolor{
+    background-color: #ffff;
+}
+
+.block-slider{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}

@@ -1,53 +1,110 @@
-.fixed{
+.fixed {
     position: fixed;
     width: 100%;
     z-index: 50;
 }
-.top-menu{
-    box-shadow: 0px 6px 14px 2px rgba(0,0,0,0.11);
+
+.top-menu {
+    box-shadow: 0px 6px 14px 2px rgba(0, 0, 0, 0.11);
 }
-.top-menu-bar{
+
+.top-menu-bar {
     background-color: #fff;
-    border-color:#fff;
+    border-color: #fff;
     padding-top: 15px;
- }
-.navbar-right{
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.navbar-right {
     padding-top: 15px
 }
-.bgshadow{
-  
-     height: 10px;
+
+.navright li a {
+    cursor: pointer;
+}
+
+.bgshadow {
+    height: 10px;
     min-height: 10px;
     background-image: url('../../../assets/shadowbg.png');
     position: absolute;
 }
-.bgbox1{
+
+.bgbox1 {
     background-position: 0 -29px;
     width: 100px;
     left: 0;
 }
 
-.bgbox2{
+.bgbox2 {
     background-position: 0 0;
     right: 100px;
-    left: 100px; 
+    left: 100px;
 }
 
-.bgbox3{
+.bgbox3 {
     background-position: 100% -29px;
     width: 100px;
     right: 0;
 }
- 
-.top1{
+
+.top1 {
     margin-top: 1%;
 }
-.bgcolor{
+
+.bgcolor {
     background-color: #ffff;
 }
 
-.block-slider{
-    position: absolute;
-    top: 90px;
+.block-slider {
+    position: relative;
+    float: left;
     width: 100%;
+    margin-top: 5%;
+}
+
+.yellow-bar {
+    background-color: rgba(255, 200, 20, 1);
+    min-height: 60px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 13px;
+}
+
+.yellow-bar img {
+    width: 50px;
+    height: 50px;
+    visibility: inherit;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -o-transition: all 1s ease;
+    /* IE 9 */
+    -ms-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+}
+
+.yellow-bar:hover img {
+    -webkit-transform: scale(1.25);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
+}
+
+.relativeLeft {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
