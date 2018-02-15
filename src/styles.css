@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "~animate.css/animate.css";
 body {
     background-color: rgb(241, 241, 241);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lato', sans-serif;
     font-weight: normal;
     text-shadow: none;
 }

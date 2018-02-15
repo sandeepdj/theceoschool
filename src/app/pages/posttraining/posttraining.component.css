@@ -1,0 +1,56 @@
+.postbg {
+    background-color: rgb(24, 33, 83);
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.postbgul ul li {
+    color: #182153;
+}
+
+.postbgul ul {
+    line-height: 2;
+    font-size: 13px;
+}
+
+.postbgul {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bghow {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bghow h3 {
+    color: #182153;
+    padding-bottom: 130px;
+}
+
+.bghow p {
+    color: #182153;
+    padding-bottom: 130px;
+    line-height: 2;
+}
+
+#PostTraining {
+    height: 100px;
+    /* background-image: url('../../../assets/bgs.png');
+    background-color: rgba(255, 255, 255, 0.15);
+    position: relative; */
+}
+
+
+/* #color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 46, 46);
+    opacity: 0.8;
+} */

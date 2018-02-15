@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WOW } from 'wowjs/dist/wow.min';
 
 @Component({
   selector: 'app-eligibility',
@@ -10,6 +11,7 @@ export class EligibilityComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    new WOW().init();
   }
 
 }

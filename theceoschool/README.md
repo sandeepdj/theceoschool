@@ -1,2 +1,0 @@
-# theceoschool
-The Ceo School

@@ -1,0 +1,57 @@
+.signupbg {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.cform {
+    padding-top: 60px;
+    border-right: 1px solid #fff;
+}
+
+.cformblock {
+    color: #182153;
+    padding-top: 50px;
+}
+
+.cformblock span {
+    color: #EB910C !important;
+}
+
+.bluebutton {
+    background-color: rgba(24, 33, 83, 1);
+    color: #fff;
+    border-radius: 0px;
+}
+
+.emcf {
+    border-bottom: 1px solid rgba(176, 176, 176, 1);
+    padding-bottom: 40px;
+}
+
+.linkedImg {
+    margin-top: 15px;
+}
+
+.cform input {
+    border-radius: 0px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

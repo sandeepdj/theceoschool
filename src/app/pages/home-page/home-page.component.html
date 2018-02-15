@@ -11,28 +11,28 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img src="assets/logo/one.png">
+                            <img src="./assets/logo/one.png">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right navright">
                             <li>
-                                <a [attr.data-target]="'#' + inSight">INSIGHT</a>
+                                <a [attr.data-target]="'#inSight'" [routerLink]="['/']" fragment="inSight">INSIGHT</a>
                             </li>
                             <li>
-                                <a href="#">CURRICULUM</a>
+                                <a [attr.data-target]="'#Curriculum'" [routerLink]="['/']" fragment="Curriculum">CURRICULUM</a>
                             </li>
                             <li>
-                                <a href="#"> HOW LONG ?</a>
+                                <a [attr.data-target]="'#inSight'" [routerLink]="['/']" fragment="HowLong">  HOW LONG ?</a>
                             </li>
                             <li>
-                                <a href="#">ELIGIBILITY</a>
+                                <a [attr.data-target]="'#inSight'" [routerLink]="['/']" fragment="Eligibility">ELIGIBILITY</a>
                             </li>
                             <li>
-                                <a href="#">POST TRAINING</a>
+                                <a [routerLink]="['/']" fragment="PostTraining">POST TRAINING</a>
                             </li>
                             <li>
-                                <a href="#">SIGN UP</a>
+                                <a [routerLink]="['/']" fragment="SignUp">SIGN UP</a>
                             </li>
                         </ul>
                     </div>
@@ -64,9 +64,9 @@
 <div class="container-fluid relativeLeft">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-8 col-md-offset-2">
                 <div class="yellow-bar text-center">
-                    <img src="assets/icon/icon.png">
+                    <img src="./assets/icon/icon.png">
                 </div>
             </div>
         </div>
